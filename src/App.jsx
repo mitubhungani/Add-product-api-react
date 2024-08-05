@@ -1,20 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Add from "./Add-product"
-import Show from "./Show-product"
-
+import Allrouts from "./Allrouts.jsx";
 
 function App() {
-
   return (
-   <>
-   <BrowserRouter>
-   <Routes>
-    <Route path="/add" element={<Add />} />
-    <Route path="/show" element={<Show />} />
-   </Routes>
-    </BrowserRouter>
-   </>
-  )
+    <>
+      <Allrouts/>
+    </>
+  );
 }
 
-export default App
+export default App;
